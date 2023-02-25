@@ -1,4 +1,4 @@
-#include<stdio.h>
+//#include<stdio.h>
 // int main(){
     //write a program to find area of curcle
     // int r;
