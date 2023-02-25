@@ -1,4 +1,5 @@
-//#include<stdio.h>
+#include<stdio.h>
+#include<string.h>
 // int main(){
     //write a program to find area of curcle
     // int r;
@@ -245,4 +246,179 @@
 //     printf("sum=%d,pro=%d ",sum,pro);
 //     return 0;
 // }
+//arrays
 
+// int main(){
+//     // int marks[3];
+//     // scanf("%d",&marks[0]);
+//     // scanf("%d",&marks[1]);
+
+//     // printf("%d",marks[0]);
+//     //  printf("%d",marks[1]);
+
+//     int a=22;
+//     int *ptr=&a;
+   
+    // printf("%u\n",ptr);
+    //  ptr++;
+    //  printf("%u",ptr);
+
+//      float b=12.0;
+//      float *ptr2= &b;
+//     //  printf("%u\n",ptr2);
+//     //  ptr2++;
+//     //    printf("%u\n",ptr2);
+//     char c='m';
+//     char *p=&c;
+//     printf("%u\n",p);
+//     p++;
+//     printf("%u",p);
+
+
+//     return 0;
+// }
+// int count(int arr[], int n);
+// int count(int arr[], int n){
+//     int count=0;
+//     for(int i=0;i<n;i++){
+//         if(arr[i]%2!=0){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// void reverse(int arr[], int n);
+// void reverse(int arr[], int n){
+//     for(int i=n-1;i>=0;i--){
+//     //   int s=arr[i];
+//     //   int end= arr[n-i-1];
+//     //   arr[i]=end;
+//     //   arr[n-i-1]=s;
+//     printf("%d ",arr[i]);
+//     }
+// }
+// void prints(int arr[], int n);
+// void prints(int arr[], int n){
+//     for(int i=0;i<n;i++){
+//         printf("%d\t",arr[i]);
+//     }
+// }
+
+
+
+
+// int main(){
+    // int arr[]={1,2,3,4,5,6,7,8,9};
+    // int n=9;
+    // reverse(arr,n);
+    // prints(arr,n);
+    
+//    for(int i=0;i<n;i++){
+//     arr[i]=arr[i]+1;
+//    }
+
+//    for(int i=0;i<n;i++){
+//     printf("%d\t", arr[i]);
+//    }
+// int n=10;
+//     int fib[n];
+    
+//     fib[0]=0;
+//     fib[1]=1;
+//     for(int i=2;i<n;i++){
+//         fib[i]=fib[i-1]+fib[i-2];
+
+//         printf("%d\t",fib[i]);
+//     }
+//     return 0;
+   
+
+// // }
+// int counts(char str[]);
+// int main(){
+//     // char name[]="sai";
+//     // for(char ch=0; name[ch] !='\0';ch++){
+//     //     printf("%c",name[ch]);
+//     // }
+
+//     // char name[50];
+//     // fgets(name, 50,stdin);
+//     // // scanf("%s",name);
+//     // // printf("your name is %s ",name);
+//     // puts(name);
+//     // return 0;
+
+//     char str[100];
+//     fgets(str,100,stdin);
+//     printf("%d",counts(str));
+
+
+
+// }
+// int counts(char str[]){
+//     int count=-1;
+//     for(int i=0; str[i]!='\0';i++){
+//         count++;
+//     }
+//     return count;
+// }
+
+// int main(){
+// char s[]="sai";
+// char s2[]="kir";
+// // // int c= strlen(s);
+// // // printf("%s,%s",s,s2);
+// // printf("%d",strcmp(s2,s));
+// // // printf("%s,%s",s,s2);
+// // char s1[]="sai";
+
+// //     char s2[]="kir";
+// //     printf("%s",strcat(s1,s2));
+// // }
+// void salting(char pswd[]);
+// void salting(char pswd[]){
+//     char salt[]="123";
+//     char newpswd[200];
+//     strcpy(newpswd,pswd);
+//     strcat(newpswd,salt);
+//     puts(newpswd);
+// }
+
+// void slice(char pswd[], int n, int m);
+// void slice(char pswd[], int n, int m){
+//  char newstr[100];
+//  int j=0;
+//  for(int i=n;i<=m;i++,j++){
+//     newstr[j]=pswd[i];
+//  }
+//     newstr[j]='\0';
+//     puts(newstr);
+// }
+// int vcount(char str[]);
+// int vcount(char str[]){
+//     int c=0;
+//     for(int i=0;str[i]!='\0';i++){
+//         if(str[i]=='a'||str[i]=='e'||str[i]=='o'||str[i]=='i'||str[i]=='u'){
+//             c++;
+//         }
+//     }
+//     return c;
+// }
+// void ispresent(char str[], char ch);
+// void ispresent(char str[] , char ch){
+//     for(int i=0;str[i]!='\0';i++){
+//         if(str[i]==ch){
+//             printf("present");
+//             return;
+//         }
+//     }
+//     printf("no");
+//   }
+
+// int main(){
+// char str[100];
+   
+//     scanf("%s",str);
+//   ispresent(str,'a');
+//     return 0;
+// }
