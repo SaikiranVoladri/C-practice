@@ -422,3 +422,244 @@
 //   ispresent(str,'a');
 //     return 0;
 // }
+
+
+//STRUCTURES
+
+        // struct student{
+        //     int age;
+        //     float cgpa;
+        //     char name[100];
+        // };
+        // int main(){
+        // struct student s1;
+        // s1.age=10;
+        // s1.cgpa=1.5;
+        // strcpy(s1.name,"sai");
+        //  printf("%d , %f  ,%s\n",s1.age , s1.cgpa, s1.name);
+
+        // struct student s2;
+        // s2.age=11;
+        // s2.cgpa=1.9;
+        // strcpy(s2.name,"kiran");
+        // printf("%d , %f  ,%s",s2.age , s2.cgpa, s2.name);
+        // return 0;
+        // }
+
+// struct student {
+//     int height;
+//     int age;
+//     char name[100];
+// };
+
+// void printinfo(struct student s1);
+// void printinfo(struct student s1){
+//     printf("%d , %d ,%s",s1.height ,s1.age,s1.name);
+// }
+// // int main(){
+// //     struct student s1;
+// //     struct student *ptr=&s1;
+// //     s1.height=1;
+// //     s1.age=20;
+// //     printf("%d,%d",ptr->age, ptr->height);
+// //     return 0;
+// // }
+
+// int main(){
+//     // struct student s1={1,2};
+//     // printf("%d",s1.age);
+
+//     struct student s1;
+//     s1.height=10;
+//     s1.age=20;
+//     strcpy(s1.name ,"sai");
+
+//     printinfo(s1);
+//     return 0;
+// }
+
+//  typedef struct asdfghjklsdfghj{
+//     int age;
+//     int h;
+//  }a;
+
+// //  int main(){
+// //     a a;
+// //     a.age=1;
+// //     a.h=2;
+// //     printf("%d,%d",a.age,a.h);
+// //     return 0;
+// // //  }
+
+// // struct address{
+// //     int hno;
+// //     char city[100];
+// // };
+// // void padds(struct address adds);
+// // void padds(struct address adds){
+// //     printf("%d,%s",adds.hno,adds.city);
+// // }
+
+// // int main(){
+// //     struct address adds[5];
+// //     printf("enter address 1");
+// //     scanf("%d",&adds[0].hno);
+// //     scanf("%s",adds[0].city);
+// //     printf("enter address 2");
+// //     scanf("%d",&adds[1].hno);
+// //     scanf("%s",adds[1].city);
+// //     padds(adds[0]);
+// //     padds(adds[1]);
+// //     return 0;
+// // }
+ 
+
+// void vsum( struct vector *s1, struct vector *s2, struct vector *s3){
+//     s3->x= s1->x + s2->x;
+//     s3->y= s1->y + s2->y;
+    
+// }
+
+
+
+
+
+// void vsum(struct vector* s1, struct vector* s2, struct vector* s3) {
+//     s3->x = s1->x + s2->x;
+//     s3->y = s1->y + s2->y;
+// }
+
+// int main() {
+//     struct vector v1 = {1, 2};
+//     struct vector v2 = {2, 1};
+//     struct vector sum = {0};
+//     vsum(&v1, &v2, &sum);
+//     printf("%d %d", sum.x, sum.y);
+//     return 0;
+// }
+
+struct vector{
+    int x;
+    int y;
+};
+
+// void psum(struct vector *v1, struct vector *v2,struct vector *s3){
+//     s3->x = v1->x + v2->x;
+//    s3->y = v1->y + v2->y;
+// }
+// void psum(struct vector *v1, struct vector *v2, struct vector *s3){
+//     s3->x = v1->x + v2->x;
+//     s3->y = v1->y + v2->y;
+// }
+// void psum(struct vector *v1, struct vector *v2, struct vector *s3){
+//     s3->x = v1->x + v2->x;
+//     s3->y = v1->y + v2->y;
+// } 
+// void psum(struct vector *v1, struct vector *v2, struct vector *s3) {
+//     s3->x = v1->x + v2->x;
+//     s3->y = v1->y + v2->y;
+// }
+
+// struct complex{
+//     int img;
+//     int real;
+// };
+// void pp(struct complex *n1){
+//     printf("%d,%d", n1->img,n1->real);
+// }
+// int main(){
+//         struct complex n1={2,3};
+//         pp(&n1);
+//     return 0;
+// }
+
+    // int main(){
+    //     FILE *file;
+    //     file= fopen("test.txt","r");
+
+    //     char ch;
+    //     //EOW end of word
+    //     ch= fgetc(file);
+    //     while(ch !=EOF){
+    //         printf("%c",ch);
+    //         ch= fgetc(file);
+    //     }
+
+        // printf("%c",fgetc(file));
+        //  printf("%c",fgetc(file));
+
+        //  fputc('S',file);
+        //  fputc('a',file);
+
+        
+        // fprintf(file,"%c",'M');
+        // fprintf(file,"%c","A");
+
+        // int n;
+
+
+        // fscanf(file,"%d",&n);
+        // printf("%d\n",n);
+        // fscanf(file,"%d",&n);
+        // printf("%d\n",n);
+       
+
+
+        
+
+        
+    //     fclose(file);
+        
+    // }
+
+    // int main(){
+    //     FILE *file;
+    //     file= fopen("test.txt","r");
+    //     int n;
+    //     fscanf(file ,"%d",&n);
+    //     printf("%d",n);
+    //      fscanf(file, "%d",&n);
+    //     printf("%d",n);
+    //      fscanf(file, "%d",&n);
+    //     printf("%d",n);
+    //      fscanf(file ,"%d",&n);
+    //     printf("%d",n);
+    //      fscanf(file ,"%d",&n);
+    //     printf("%d",n);
+    //     fclose(file);
+    // }
+
+    int main(){
+        FILE *f;
+        f= fopen("sum.txt","r");
+        int a;
+        fscanf(f,"%d",&a);
+        int b;
+        fscanf(f,"%d",&b);
+        fclose(f);
+        f= fopen("sum.txt","w");
+        fprintf(f,"%d",a+b);
+        fclose(f);
+
+
+
+
+        // int n;
+        // scanf("%d",&n);
+        // for(int i=0;i<=n;i++){
+        //     if(i%2!=0){
+        //         fprintf(f,"%d\t",i);
+        //     }
+        // }
+        // int age;
+        // char name[100];
+        // printf("name");
+        // scanf("%s",name);
+        // printf("age");
+        //  scanf("%d",&age);
+        // fprintf(f,"%s",name);
+        // fprintf(f,"%d",age);
+        // fclose(f);
+
+    }
+
