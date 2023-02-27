@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<string.h>
+#include<stdlib.h>
 // int main(){
     //write a program to find area of curcle
     // int r;
@@ -582,84 +583,127 @@ struct vector{
     //     ch= fgetc(file);
     //     while(ch !=EOF){
     //         printf("%c",ch);
-    //         ch= fgetc(file);
-    //     }
+    // //         ch= fgetc(file);
+    // //     }
 
-        // printf("%c",fgetc(file));
-        //  printf("%c",fgetc(file));
+    //     // printf("%c",fgetc(file));
+    //     //  printf("%c",fgetc(file));
 
-        //  fputc('S',file);
-        //  fputc('a',file);
+    //     //  fputc('S',file);
+    //     //  fputc('a',file);
 
         
-        // fprintf(file,"%c",'M');
-        // fprintf(file,"%c","A");
+    //     // fprintf(file,"%c",'M');
+    //     // fprintf(file,"%c","A");
 
-        // int n;
+    //     // int n;
 
 
-        // fscanf(file,"%d",&n);
-        // printf("%d\n",n);
-        // fscanf(file,"%d",&n);
-        // printf("%d\n",n);
+    //     // fscanf(file,"%d",&n);
+    //     // printf("%d\n",n);
+    //     // fscanf(file,"%d",&n);
+    //     // printf("%d\n",n);
        
 
 
         
 
         
-    //     fclose(file);
+    // //     fclose(file);
         
-    // }
+    // // }
+
+    // // int main(){
+    // //     FILE *file;
+    // //     file= fopen("test.txt","r");
+    // //     int n;
+    // //     fscanf(file ,"%d",&n);
+    // //     printf("%d",n);
+    // //      fscanf(file, "%d",&n);
+    // //     printf("%d",n);
+    // //      fscanf(file, "%d",&n);
+    // //     printf("%d",n);
+    // //      fscanf(file ,"%d",&n);
+    // //     printf("%d",n);
+    // //      fscanf(file ,"%d",&n);
+    // //     printf("%d",n);
+    // //     fclose(file);
+    // // }
 
     // int main(){
-    //     FILE *file;
-    //     file= fopen("test.txt","r");
-    //     int n;
-    //     fscanf(file ,"%d",&n);
-    //     printf("%d",n);
-    //      fscanf(file, "%d",&n);
-    //     printf("%d",n);
-    //      fscanf(file, "%d",&n);
-    //     printf("%d",n);
-    //      fscanf(file ,"%d",&n);
-    //     printf("%d",n);
-    //      fscanf(file ,"%d",&n);
-    //     printf("%d",n);
-    //     fclose(file);
+    //     FILE *f;
+    //     f= fopen("sum.txt","r");
+    //     int a;
+    //     fscanf(f,"%d",&a);
+    //     int b;
+    //     fscanf(f,"%d",&b);
+    //     fclose(f);
+    //     f= fopen("sum.txt","w");
+    //     fprintf(f,"%d",a+b);
+    //     fclose(f);
+
+
+
+
+    //     // int n;
+    //     // scanf("%d",&n);
+    //     // for(int i=0;i<=n;i++){
+    //     //     if(i%2!=0){
+    //     //         fprintf(f,"%d\t",i);
+    //     //     }
+    //     // }
+    //     // int age;
+    //     // char name[100];
+    //     // printf("name");
+    //     // scanf("%s",name);
+    //     // printf("age");
+    //     //  scanf("%d",&age);
+    //     // fprintf(f,"%s",name);
+    //     // fprintf(f,"%d",age);
+    //     // fclose(f);
+
     // }
 
-    int main(){
-        FILE *f;
-        f= fopen("sum.txt","r");
-        int a;
-        fscanf(f,"%d",&a);
-        int b;
-        fscanf(f,"%d",&b);
-        fclose(f);
-        f= fopen("sum.txt","w");
-        fprintf(f,"%d",a+b);
-        fclose(f);
+// int main(){
+//     int *ptr;
+//     // int n;
+//     // scanf("%d",&n);
+//     // ptr=(int *)malloc(5*sizeof(int));
+//     ptr= (int *)calloc(5,sizeof(int));
+
+//     for(int i=0;i<5;i++){
+//         scanf("%d",&ptr[i]);
+//     }
 
 
+//     // ptr[0]=1;
+//     // ptr[1]=2;
+//     // ptr[2]=3;
+//     // ptr[3]=4;
+//     // ptr[4]=5;
+//     for(int i=0;i<5;i++){
+//         printf("%d\n",ptr[i]);
+//     }
 
+// }
 
-        // int n;
-        // scanf("%d",&n);
-        // for(int i=0;i<=n;i++){
-        //     if(i%2!=0){
-        //         fprintf(f,"%d\t",i);
-        //     }
-        // }
-        // int age;
-        // char name[100];
-        // printf("name");
-        // scanf("%s",name);
-        // printf("age");
-        //  scanf("%d",&age);
-        // fprintf(f,"%s",name);
-        // fprintf(f,"%d",age);
-        // fclose(f);
-
-    }
-
+// int main(){
+//     int *ptr;
+//     ptr=(int*)calloc(3,sizeof(int));
+//     ptr[0]=1;
+//     ptr[1]=3;
+//     ptr[2]=5;
+//     for(int i=0;i<3;i++){
+//         printf("%d \t ",ptr[i]);
+//     }
+//     ptr=realloc(ptr,4);
+//     ptr[0]=2;
+//     ptr[1]=4;
+//     ptr[2]=6;
+//     ptr[3]=8;
+//      for(int i=0;i<4;i++){
+//         printf("%d \t ",ptr[i]);
+//     }
+//     free(ptr);
+// return 0;
+// }
